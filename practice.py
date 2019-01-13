@@ -1,6 +1,6 @@
-print("5 + 5")
-x = 5 + 5
-print("x")
-print(x)
-y = str(5 / 3)
-print(y)
+import numpy as np 
+import matplotlib.pyplot as plt
+x = np.linspace(0, 2*np.pi, 500)
+y = np.sin(x)
+plt.plot(y)
+plt.show()
