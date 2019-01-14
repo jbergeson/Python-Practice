@@ -64,31 +64,54 @@
 # b = (6, 4)
 # if (a>b): print("a")
 # else: print("b")
-Dict = {"Tim": 18, "Denise":5, "Catherine": 12, "Robert": 112}
-print(Dict["Tim"])
-Boys = {"Tim": 18, "Robert": 112}
-Girls = {"Denise":5, "Catherine": 12}
-studentY = Boys.copy()
-studentX = Girls.copy()
-print(studentX)
-print(studentY)
-Dict.update({"Sarah": 25})
-print(Dict)
-del Dict["Sarah"]
-print(Dict)
-print("Students Name: %s" % list(Dict.items()))
-for key in list(Dict.keys()):
-    if key in list(Boys.keys()):
-        print(True)
-    else:
-        print(False)
-students = list(Dict.keys())
-students.sort()
-print(students)
-for a in students:
-    print(": ".join((a,str(Dict[a]))))
-print("Length: %d" % len(Dict))
-print("Type: %s" % type(Dict))
-print("Printable string: %s" % str(Dict))
-print(Dict)
-
+# Dict = {"Tim": 18, "Denise":5, "Catherine": 12, "Robert": 112}
+# print(Dict["Tim"])
+# Boys = {"Tim": 18, "Robert": 112}
+# Girls = {"Denise":5, "Catherine": 12}
+# studentY = Boys.copy()
+# studentX = Girls.copy()
+# print(studentX)
+# print(studentY)
+# Dict.update({"Sarah": 25})
+# print(Dict)
+# del Dict["Sarah"]
+# print(Dict)
+# print("Students Name: %s" % list(Dict.items()))
+# for key in list(Dict.keys()):
+#     if key in list(Boys.keys()):
+#         print(True)
+#     else:
+#         print(False)
+# students = list(Dict.keys())
+# students.sort()
+# print(students)
+# for a in students:
+#     print(": ".join((a,str(Dict[a]))))
+# print("Length: %d" % len(Dict))
+# print("Type: %s" % type(Dict))
+# print("Printable string: %s" % str(Dict))
+# print(Dict)
+# x = 4
+# x += 4
+# y = 5
+# print("the value of x>y is", x>y)
+# print("Line 1 - Value of x: ", x)
+# print("Line 2 - Value of y: ", y)
+# a = True
+# b = False
+# print("a and b is", a and b)
+# print("a or b is", a or b)
+# b = a
+# print("new a or b is", a or b)
+# print("not a is", not a)
+# x = 4
+# y = 8
+# list = [1, 2, 3, 4, 5,]
+# if (x in list):
+#     print("Line 1 - x is available in the given list")
+# else: 
+#     print("Line 1 - x is not available in the given list")
+# if (y not in list):
+#     print("Line 2 - y is not available in the given list")
+# else:
+#     print("Line 2 - y is available in the given list")
