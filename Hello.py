@@ -145,10 +145,10 @@
 #     return
 # guru992(1,2, 4, 5)
 
-## Note: Why is there a pointer necessary when the function is being 
-## called by directly inputting values, but when passing a predefined 
-## tuple the pointer is not required and slightly changes the output? 
-## (Lines 138 - 146)
+# # Note: Why is there a pointer necessary when the function is being 
+# # called by directly inputting values, but when passing a predefined 
+# # tuple the pointer is not required and slightly changes the output? 
+# # (Lines 138 - 146)
 
 # def main():
 #     x, y = 2, 2
@@ -163,3 +163,12 @@
 #     }
 #     return(switcher.get(arg, "nothing"))
 # print(switch(3))
+# lis = "The Seasons"
+# for x in lis:
+#     if (x == "S"): continue
+#     print(x)
+# Months = ["jan", "feb", "mar", "apr", "may", "jun"]
+# for a, b in enumerate(Months):
+#     print(a, b)
+# for i in range(1, 124):
+#     print("guru99", i)
