@@ -145,6 +145,6 @@
 #     return
 # guru992(1,2, 4, 5)
 ## Note: Why is there a pointer necessary when the function is being 
-## by directly inputting values, but when passing a predefined tuple
-## the pointer is not required and slightly changes the output? (Lines
-## 138 - 146)
+## called by directly inputting values, but when passing a predefined 
+## tuple the pointer is not required and slightly changes the output? 
+## (Lines 138 - 146)
