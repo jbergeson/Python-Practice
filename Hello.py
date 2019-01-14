@@ -50,5 +50,17 @@
 # print("".join(reversed(var)))
 # mystring = "dword1 dword2 dword3"
 # print(mystring.split("d"))
-
-
+# tup1 = ("Robert", "Carlos", "1965", "Terminator 1995", "Actor", "Florida");
+# tup2 = (1, 2, 3, 4, 5, 6, 7);
+# print(tup1[0])
+# print(tup2[1:4])
+# x = ("Guru99", "20", "Education")
+# (company, emp, profile) = x
+# print(company)
+# print(emp)
+# print(profile)
+# print(x)
+a = (5, 6)
+b = (6, 4)
+if (a>b): print("a")
+else: print("b")
