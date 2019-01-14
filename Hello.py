@@ -1,4 +1,4 @@
-#print("Hello World")
+# print("Hello World")
 # def main():
 #     print("Hello world!")
 # print("Guru99")
@@ -115,3 +115,36 @@
 #     print("Line 2 - y is not available in the given list")
 # else:
 #     print("Line 2 - y is available in the given list")
+# def func1():
+#     print("I am learning Python Functions!!!")
+#     x = 5
+#     return(x)
+# func1()
+# myVar = func1()
+# print(myVar)
+# def square(x):
+#     var = x * x
+#     return(var)
+# print(square(4))
+# def bigNumber(a, b, c, d, e, f, g):
+#     ans = a * b * c * d * e *f *g * a **2
+#     return(ans)
+# print(bigNumber(10, 20, 30, 40, 50, 60, 70))
+# def multiply(x, y = 0):
+#     ans = x * y
+#     return(ans)
+# print("only x:", multiply(5))
+# print("x and y:", multiply(5, 1))
+# def guru99(args):
+#     print(args)
+#     return
+# myArray = (1, 2, 4, 5)
+# guru99(myArray)
+# def guru992(*args):
+#     print(args)
+#     return
+# guru992(1,2, 4, 5)
+## Note: Why is there a pointer necessary when the function is being 
+## by directly inputting values, but when passing a predefined tuple
+## the pointer is not required and slightly changes the output? (Lines
+## 138 - 146)
