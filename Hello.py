@@ -60,7 +60,35 @@
 # print(emp)
 # print(profile)
 # print(x)
-a = (5, 6)
-b = (6, 4)
-if (a>b): print("a")
-else: print("b")
+# a = (5, 6)
+# b = (6, 4)
+# if (a>b): print("a")
+# else: print("b")
+Dict = {"Tim": 18, "Denise":5, "Catherine": 12, "Robert": 112}
+print(Dict["Tim"])
+Boys = {"Tim": 18, "Robert": 112}
+Girls = {"Denise":5, "Catherine": 12}
+studentY = Boys.copy()
+studentX = Girls.copy()
+print(studentX)
+print(studentY)
+Dict.update({"Sarah": 25})
+print(Dict)
+del Dict["Sarah"]
+print(Dict)
+print("Students Name: %s" % list(Dict.items()))
+for key in list(Dict.keys()):
+    if key in list(Boys.keys()):
+        print(True)
+    else:
+        print(False)
+students = list(Dict.keys())
+students.sort()
+print(students)
+for a in students:
+    print(": ".join((a,str(Dict[a]))))
+print("Length: %d" % len(Dict))
+print("Type: %s" % type(Dict))
+print("Printable string: %s" % str(Dict))
+print(Dict)
+
