@@ -144,7 +144,22 @@
 #     print(args)
 #     return
 # guru992(1,2, 4, 5)
+
 ## Note: Why is there a pointer necessary when the function is being 
 ## called by directly inputting values, but when passing a predefined 
 ## tuple the pointer is not required and slightly changes the output? 
 ## (Lines 138 - 146)
+
+# def main():
+#     x, y = 2, 2
+#     st = "x is smaller" if (x < y) else "x >= y"
+#     print(st)
+# main()
+# def switch(arg):
+#     switcher = {
+#         0: "Zero",
+#         1: "One",
+#         2: "Two"
+#     }
+#     return(switcher.get(arg, "nothing"))
+# print(switch(3))
