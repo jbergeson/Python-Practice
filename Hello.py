@@ -172,3 +172,44 @@
 #     print(a, b)
 # for i in range(1, 124):
 #     print("guru99", i)
+# class myClass():
+#     def method1(self):
+#         print("Guru99")
+#     def method2(self, someString):
+#         print("Software Testing: " + someString)
+# class childClass(myClass):
+#     def method1(self):
+#         myClass.method1(self)
+#         print("childClass Method1")
+#     def method2(self, someString):
+#         myClass.method2(self, someString)
+#         print("childClass method2")
+# def main():
+#     c2 = childClass()
+#     c2.method1()
+#     c2.method2("yay! It works!!!!!")
+#     c = myClass()
+#     c.method1()
+#     c.method2("yay! It works!!!!!")
+# main()
+
+# # Note: We said that childClass was supposed to inherit the features
+# # of myClass, but then when we defined method1 in childClass we had
+# # to call myClass.method1(self) in order to actually have the child 
+# # inherit the features.  If this is necessary, why did we include 
+# # (myClass) in the original definition of childClass, instead of 
+# # simply having empty parentheses?  Does inheritance automatically 
+# # occur by including the parent class in the definition of the child,
+# # or is it something that has to be coded in?
+
+# class User:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def sayHello(self):
+#         print("Welcome to Guru99, " + self.name)
+#     def printAge(self):
+#         print("Your age is " + str(self.age))
+# User1 = User("Jennifer", 20)
+# User1.sayHello()
+# User1.printAge()
